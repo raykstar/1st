@@ -15,11 +15,11 @@ int main(){
  int l=a[0],s=a[0];
 
  for(i=1;i<n;i++){
-  if(a[i]>l){
+  if(a[i]>l){                 //checks for the largest number
    l=a[i];
   }
   if(a[i]<s){
-   s=a[i];
+   s=a[i];                   //cheacks for the smallest number
   }
  }
 

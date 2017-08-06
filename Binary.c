@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
-
+//have taken max 3 bit binary. works for any bit number with necessary changes.
+//converts number to binary and stores result in an array
 int binary(int *n){
   int rem;
   rem = *n%2;

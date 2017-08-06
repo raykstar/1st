@@ -19,7 +19,7 @@ int main(){
    l=a[i];
   }
   if(a[i]<s){
-   s=a[i];                   //cheacks for the smallest number
+   s=a[i];                   //checks for the smallest number
   }
  }
 
